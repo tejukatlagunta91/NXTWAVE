@@ -100,45 +100,6 @@ Open **`http://localhost:5173`** in your browser.
 npm run build
 ```
 Generates a static production bundle in `dist/` in ~250ms.
-
----
-
-## 🚀 Vercel Deployment Instructions
-
-This repository is structured for **1-click direct deployment to Vercel**:
-
-### Option A: Via Vercel Web Dashboard
-1. Push your repository to GitHub or GitLab.
-2. Go to [vercel.com](https://vercel.com) and click **"Add New Project"**.
-3. Import this repository.
-4. Framework Preset will be automatically detected as **Vite**.
-5. Build settings:
-   - **Build Command:** `npm run build`
-   - **Output Directory:** `dist`
-   - **Install Command:** `npm install`
-6. Click **Deploy**. Vercel will deploy the application with zero environment variables needed!
-
-### Option B: Via Vercel CLI
-```bash
-# Install Vercel CLI globally (if not installed)
-npm i -g vercel
-
-# Deploy directly from workspace root
-vercel
-```
-
-The included `vercel.json` ensures client-side routing works seamlessly across page refreshes:
-```json
-{
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
-}
-```
-
 ---
 
 ## 🧪 Feature Walkthrough & Testing
