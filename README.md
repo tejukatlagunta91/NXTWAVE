@@ -1,5 +1,7 @@
 # NxtWave Growth Challenge – AI Workshop Registration & Referral Tracker (Frontend-Only Prototype)
 
+🌐 **Live Deployed Application:** [https://nxtwavegrowthintern.vercel.app/](https://nxtwavegrowthintern.vercel.app/)
+
 A frontend-only, Vercel-deployable React application built for the **NxtWave Growth Intern Challenge**. 
 
 This application promotes the free live workshop **“Build Your First AI Project in 60 Minutes”**, tailored specifically for final-year engineering students preparing for placements. It demonstrates complete client-side student registration, referral tracking, 5-channel marketing attribution, a **7-Day Staged Budget Plan (₹2,000 maximum budget)**, and a real-time campaign monitoring dashboard working towards the **7-day goal of 500 genuine student registrations**.
@@ -110,14 +112,7 @@ Generates a static production bundle in `dist/` in ~250ms.
 - A celebratory confetti effect triggers, and a **Registration Confirmed** modal reveals your unique referral code (e.g. `DEVE-4F0A`) and copyable share URL.
 - Re-submitting the same email address triggers a duplicate rejection banner: *"A registration with this email already exists."*
 
-### 2. URL Referral & Source Auto-Capture
-- Test opening a referral URL:  
-  **`http://localhost:5173/?source=college_club&ref=CLUB2026`**
-- Notice that:
-  - The marketing source dropdown automatically pre-selects **"College Club / Coding Cell"**.
-  - The referral code input is pre-populated with **`CLUB2026`**.
-
-### 3. Admin Dashboard & Demo Controls
+### 2. Admin Dashboard & Demo Controls
 - Click **"Admin Dashboard"** in the top navigation bar.
 - Credentials are pre-filled (`admin` / `nxtwave2026`). Click **"Access Dashboard"**.
 - **Metrics Observed:**
